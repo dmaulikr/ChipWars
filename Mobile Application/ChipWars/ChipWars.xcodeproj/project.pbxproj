@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EBE04791F5DD6D800731B1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE04781F5DD6D800731B1B /* AppDelegate.swift */; };
+		5EBE047E1F5DD6D800731B1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE047C1F5DD6D800731B1B /* Main.storyboard */; };
+		5EBE04801F5DD6D800731B1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE047F1F5DD6D800731B1B /* Assets.xcassets */; };
+		5EBE04831F5DD6D800731B1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE04811F5DD6D800731B1B /* LaunchScreen.storyboard */; };
+		5EBE048E1F5DD7F200731B1B /* BattleArenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE048D1F5DD7F200731B1B /* BattleArenaViewController.swift */; };
+		5EBE04931F5DD9FF00731B1B /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE04921F5DD9FF00731B1B /* OnboardingViewController.swift */; };
+		5EBE04951F5DDA2000731B1B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE04941F5DDA2000731B1B /* LoginViewController.swift */; };
+		C89076A430E5D203AAE94A5B /* Pods_ChipWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7CD6E808D230A7A4941CDF /* Pods_ChipWars.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33A5C91228A1C88861F7ABB9 /* Pods-ChipWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipWars.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChipWars/Pods-ChipWars.release.xcconfig"; sourceTree = "<group>"; };
+		5EBE04751F5DD6D800731B1B /* ChipWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChipWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBE04781F5DD6D800731B1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EBE047D1F5DD6D800731B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EBE047F1F5DD6D800731B1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EBE04821F5DD6D800731B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EBE04841F5DD6D800731B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EBE048D1F5DD7F200731B1B /* BattleArenaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BattleArenaViewController.swift; path = Views/BattleArenaViewController.swift; sourceTree = "<group>"; };
+		5EBE04921F5DD9FF00731B1B /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnboardingViewController.swift; path = Views/OnboardingViewController.swift; sourceTree = "<group>"; };
+		5EBE04941F5DDA2000731B1B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Views/LoginViewController.swift; sourceTree = "<group>"; };
+		7C7CD6E808D230A7A4941CDF /* Pods_ChipWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChipWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829BFF3F76C184653F28FE85 /* Pods-ChipWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipWars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChipWars/Pods-ChipWars.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EBE04721F5DD6D800731B1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89076A430E5D203AAE94A5B /* Pods_ChipWars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EBE046C1F5DD6D800731B1B = {
+			isa = PBXGroup;
+			children = (
+				5EBE04771F5DD6D800731B1B /* ChipWars */,
+				5EBE04761F5DD6D800731B1B /* Products */,
+				C3B0FEDF34D600568186A157 /* Pods */,
+				6DF558D8F657BD55915114F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EBE04761F5DD6D800731B1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE04751F5DD6D800731B1B /* ChipWars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EBE04771F5DD6D800731B1B /* ChipWars */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE047F1F5DD6D800731B1B /* Assets.xcassets */,
+				5EBE04911F5DD97C00731B1B /* Base.lproj */,
+				5EBE048C1F5DD71800731B1B /* Enums */,
+				5EBE048B1F5DD6E800731B1B /* Models */,
+				5EBE048A1F5DD6E200731B1B /* Views */,
+				5EBE04781F5DD6D800731B1B /* AppDelegate.swift */,
+				5EBE04841F5DD6D800731B1B /* Info.plist */,
+			);
+			path = ChipWars;
+			sourceTree = "<group>";
+		};
+		5EBE048A1F5DD6E200731B1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE04941F5DDA2000731B1B /* LoginViewController.swift */,
+				5EBE048D1F5DD7F200731B1B /* BattleArenaViewController.swift */,
+				5EBE04921F5DD9FF00731B1B /* OnboardingViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5EBE048B1F5DD6E800731B1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5EBE048C1F5DD71800731B1B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		5EBE04911F5DD97C00731B1B /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				5EBE047C1F5DD6D800731B1B /* Main.storyboard */,
+				5EBE04811F5DD6D800731B1B /* LaunchScreen.storyboard */,
+			);
+			name = Base.lproj;
+			sourceTree = "<group>";
+		};
+		6DF558D8F657BD55915114F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C7CD6E808D230A7A4941CDF /* Pods_ChipWars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3B0FEDF34D600568186A157 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				829BFF3F76C184653F28FE85 /* Pods-ChipWars.debug.xcconfig */,
+				33A5C91228A1C88861F7ABB9 /* Pods-ChipWars.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EBE04741F5DD6D800731B1B /* ChipWars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EBE04871F5DD6D800731B1B /* Build configuration list for PBXNativeTarget "ChipWars" */;
+			buildPhases = (
+				94C254706DD482EAC436FB90 /* [CP] Check Pods Manifest.lock */,
+				5EBE04711F5DD6D800731B1B /* Sources */,
+				5EBE04721F5DD6D800731B1B /* Frameworks */,
+				5EBE04731F5DD6D800731B1B /* Resources */,
+				71C6465602E0795A720C47FF /* [CP] Embed Pods Frameworks */,
+				EE2DECE46B056298A04C4F27 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChipWars;
+			productName = ChipWars;
+			productReference = 5EBE04751F5DD6D800731B1B /* ChipWars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EBE046D1F5DD6D800731B1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Makarov Andrey";
+				TargetAttributes = {
+					5EBE04741F5DD6D800731B1B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7U2ZQER5UE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5EBE04701F5DD6D800731B1B /* Build configuration list for PBXProject "ChipWars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EBE046C1F5DD6D800731B1B;
+			productRefGroup = 5EBE04761F5DD6D800731B1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EBE04741F5DD6D800731B1B /* ChipWars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EBE04731F5DD6D800731B1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBE04831F5DD6D800731B1B /* LaunchScreen.storyboard in Resources */,
+				5EBE04801F5DD6D800731B1B /* Assets.xcassets in Resources */,
+				5EBE047E1F5DD6D800731B1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71C6465602E0795A720C47FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChipWars/Pods-ChipWars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C254706DD482EAC436FB90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2DECE46B056298A04C4F27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChipWars/Pods-ChipWars-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EBE04711F5DD6D800731B1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBE048E1F5DD7F200731B1B /* BattleArenaViewController.swift in Sources */,
+				5EBE04791F5DD6D800731B1B /* AppDelegate.swift in Sources */,
+				5EBE04951F5DDA2000731B1B /* LoginViewController.swift in Sources */,
+				5EBE04931F5DD9FF00731B1B /* OnboardingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EBE047C1F5DD6D800731B1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EBE047D1F5DD6D800731B1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EBE04811F5DD6D800731B1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EBE04821F5DD6D800731B1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EBE04851F5DD6D800731B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EBE04861F5DD6D800731B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EBE04881F5DD6D800731B1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829BFF3F76C184653F28FE85 /* Pods-ChipWars.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7U2ZQER5UE;
+				INFOPLIST_FILE = ChipWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesla.ChipWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5EBE04891F5DD6D800731B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A5C91228A1C88861F7ABB9 /* Pods-ChipWars.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7U2ZQER5UE;
+				INFOPLIST_FILE = ChipWars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesla.ChipWars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EBE04701F5DD6D800731B1B /* Build configuration list for PBXProject "ChipWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBE04851F5DD6D800731B1B /* Debug */,
+				5EBE04861F5DD6D800731B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EBE04871F5DD6D800731B1B /* Build configuration list for PBXNativeTarget "ChipWars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBE04881F5DD6D800731B1B /* Debug */,
+				5EBE04891F5DD6D800731B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EBE046D1F5DD6D800731B1B /* Project object */;
+}
