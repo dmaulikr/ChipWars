@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E096C051F5F3E8200101486 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E096C041F5F3E8200101486 /* AuthenticationManager.swift */; };
+		5E3153F11F5F2DC400326F35 /* CWRace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3153F01F5F2DC400326F35 /* CWRace.swift */; };
+		5E3153F31F5F2E4600326F35 /* CWPlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3153F21F5F2E4600326F35 /* CWPlayerModel.swift */; };
+		5E3153F61F5F363000326F35 /* CWString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3153F51F5F363000326F35 /* CWString.swift */; };
+		5E3153F81F5F369300326F35 /* CWUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3153F71F5F369300326F35 /* CWUserDefaults.swift */; };
 		5EBE04791F5DD6D800731B1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE04781F5DD6D800731B1B /* AppDelegate.swift */; };
 		5EBE047E1F5DD6D800731B1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE047C1F5DD6D800731B1B /* Main.storyboard */; };
 		5EBE04801F5DD6D800731B1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE047F1F5DD6D800731B1B /* Assets.xcassets */; };
@@ -19,6 +24,11 @@
 
 /* Begin PBXFileReference section */
 		33A5C91228A1C88861F7ABB9 /* Pods-ChipWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipWars.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChipWars/Pods-ChipWars.release.xcconfig"; sourceTree = "<group>"; };
+		5E096C041F5F3E8200101486 /* AuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthenticationManager.swift; path = Services/AuthenticationManager.swift; sourceTree = "<group>"; };
+		5E3153F01F5F2DC400326F35 /* CWRace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CWRace.swift; path = Enums/CWRace.swift; sourceTree = "<group>"; };
+		5E3153F21F5F2E4600326F35 /* CWPlayerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CWPlayerModel.swift; path = Models/CWPlayerModel.swift; sourceTree = "<group>"; };
+		5E3153F51F5F363000326F35 /* CWString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CWString.swift; path = Extensions/CWString.swift; sourceTree = "<group>"; };
+		5E3153F71F5F369300326F35 /* CWUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CWUserDefaults.swift; path = Extensions/CWUserDefaults.swift; sourceTree = "<group>"; };
 		5EBE04751F5DD6D800731B1B /* ChipWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChipWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EBE04781F5DD6D800731B1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EBE047D1F5DD6D800731B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,6 +54,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E096C031F5F3E5600101486 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5E096C041F5F3E8200101486 /* AuthenticationManager.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		5E3153F41F5F35D400326F35 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E3153F51F5F363000326F35 /* CWString.swift */,
+				5E3153F71F5F369300326F35 /* CWUserDefaults.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		5EBE046C1F5DD6D800731B1B = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +92,8 @@
 		5EBE04771F5DD6D800731B1B /* ChipWars */ = {
 			isa = PBXGroup;
 			children = (
+				5E096C031F5F3E5600101486 /* Services */,
+				5E3153F41F5F35D400326F35 /* Extensions */,
 				5EBE047F1F5DD6D800731B1B /* Assets.xcassets */,
 				5EBE04911F5DD97C00731B1B /* Base.lproj */,
 				5EBE048C1F5DD71800731B1B /* Enums */,
@@ -89,6 +118,7 @@
 		5EBE048B1F5DD6E800731B1B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5E3153F21F5F2E4600326F35 /* CWPlayerModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -96,6 +126,7 @@
 		5EBE048C1F5DD71800731B1B /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				5E3153F01F5F2DC400326F35 /* CWRace.swift */,
 			);
 			name = Enums;
 			sourceTree = "<group>";
@@ -250,10 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3153F81F5F369300326F35 /* CWUserDefaults.swift in Sources */,
+				5E3153F31F5F2E4600326F35 /* CWPlayerModel.swift in Sources */,
+				5E3153F61F5F363000326F35 /* CWString.swift in Sources */,
+				5E096C051F5F3E8200101486 /* AuthenticationManager.swift in Sources */,
 				5EBE048E1F5DD7F200731B1B /* BattleArenaViewController.swift in Sources */,
 				5EBE04791F5DD6D800731B1B /* AppDelegate.swift in Sources */,
 				5EBE04951F5DDA2000731B1B /* LoginViewController.swift in Sources */,
 				5EBE04931F5DD9FF00731B1B /* OnboardingViewController.swift in Sources */,
+				5E3153F11F5F2DC400326F35 /* CWRace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +455,7 @@
 				5EBE04891F5DD6D800731B1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,20 +1,32 @@
 PODS:
   - BWWalkthrough (2.1.0)
+  - IQKeyboardManagerSwift (4.0.9)
   - Realm (2.7.0):
     - Realm/Headers (= 2.7.0)
   - Realm/Headers (2.7.0)
   - RealmSwift (2.7.0):
     - Realm (= 2.7.0)
+  - SideMenu (2.3.2)
+  - SVProgressHUD (2.1.2)
+  - SwiftKeychainWrapper (3.0.1)
 
 DEPENDENCIES:
   - BWWalkthrough
+  - IQKeyboardManagerSwift
   - RealmSwift
+  - SideMenu
+  - SVProgressHUD
+  - SwiftKeychainWrapper
 
 SPEC CHECKSUMS:
   BWWalkthrough: 188408f55b951725ccfd4faa8dab5c577b57c7a9
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
   Realm: 07e5d3a9e0e41d65fd5f9f05150ed6295d0f093b
   RealmSwift: 6d06425d3900c86473c4f323bf6949b43fca22bc
+  SideMenu: 3fa07dd05d4bade2b6f9889fb1877e312e1ba319
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
 
-PODFILE CHECKSUM: 5f220eb628bd444def4fce478f2b214969524be9
+PODFILE CHECKSUM: 64730dee684cc55702ea4d6097f31ed2a0b26e8d
 
 COCOAPODS: 1.2.1

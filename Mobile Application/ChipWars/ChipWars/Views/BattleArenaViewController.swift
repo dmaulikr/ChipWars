@@ -10,8 +10,12 @@ import UIKit
 
 class BattleArenaViewController: UIViewController {
     
+    static let identifier = "BattleArenaViewController"
+    
+    private var player: CWPlayerModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }  
+    }
+    
 }

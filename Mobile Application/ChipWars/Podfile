@@ -4,7 +4,10 @@ inhibit_all_warnings!
 target 'ChipWars' do
   use_frameworks!
   
-  pod 'BWWalkthrough'
   pod 'RealmSwift'
-
+  pod 'BWWalkthrough'
+  pod 'IQKeyboardManagerSwift'
+  pod 'SVProgressHUD'
+  pod 'SwiftKeychainWrapper'
+  pod 'SideMenu'
 end
